@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml"
+ 	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+<body style="background-color:#DD8BC2  ;">
+   <h:body>
+   <center>
+   <h3 style="color:#872F6A ;font-size:50px;">Pozicija</h3>
+   </center>
+   <h:button style="background:#C35DA1;color:black;font-size:20px;" value="Nazad" outcome="index.xhtml" />
+      <h:form>
+      <center>
+         <h4 style="color:#872F6A ;font-size:25px;">Dodavanje pozicije</h4>
+    
+      <h:outputLabel style="color:black ;font-size:25px;" value="Id Taksija:"/>
+      <div>
+      <h:inputText value="#{pozicijaController.ATaksiid}"></h:inputText>
+      </div>
+     
+     
+      <h:outputLabel style="color:black ;font-size:25px;" value="Id lokacije:"/>
+      <div>
+      <h:inputText value="#{pozicijaController.ALokacijaId}"></h:inputText>
+      </div>
+     
+   
+      
+       
+      <h:commandButton style="background:#C35DA1;color:black;font-size:20px;" value="Dodaj poziciju" action="#{pozicijaController.addPozicija(pozicijaController.ATaksiid,pozicijaController.ALokacijaId)}"></h:commandButton>
+                </center>
+      </h:form>
+
+               <h:form>
+               <center>
+         <h4 style="color:#872F6A ;font-size:25px;">Brisanje pozicije</h4>
+      <h:outputLabel style="color:black ;font-size:25px;" value="Id za brisanje pozicije:"/>
+      <div>
+      <h:inputText value="#{pozicijaController.did}"></h:inputText>
+      </div>
+     
+       
+<h:commandButton style="background:#C35DA1;color:black;font-size:20px;" value="Obrisi poziciju" action="#{pozicijaController.deletePozicija(pozicijaController.did)}"></h:commandButton> 
+                </center>
+    </h:form>
+         
+     <h:form>  
+      <h:dataTable value="#{pozicijaController.svePozicije()}" var="p"
+    			styleClass="order-table"
+    			headerClass="order-table-header"
+    			rowClasses="order-table-odd-row,order-table-even-row"
+    			style="color: #872F6A ;font-size:30px;font-weight:bold; margin-top:30px;text-shadow: 1px 1px 2px black, 0 0 20px #732058, 0 0 5px #732058; border:3px solid #A50E73; background-color:#C35DA1 ;text-align:center; border-spacing: 5px; width:80%; margin-left:10%;">
+    	
+    		<h:column >
+    			<f:facet  name="header">
+    				TAKSI ID
+    			</f:facet>
+    			<h:outputText value="#{p.taksiId}"/>
+    		</h:column>
+ 				
+ 				
+    		<h:column>
+    			<f:facet name="header">
+    				LOKACIJA ID
+				</f:facet>
+    			<h:outputText value="#{p.lokacijaId}"/>
+    		</h:column>
+
+    	</h:dataTable>
+                
+      </h:form>     
+         
+         
+   </h:body>
+   </body>
+   
+</html>

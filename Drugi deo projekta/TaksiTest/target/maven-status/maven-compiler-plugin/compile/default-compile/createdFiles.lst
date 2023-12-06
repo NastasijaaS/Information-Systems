@@ -1,0 +1,13 @@
+services\LokacijaService.class
+serviceimpl\TaksiServiceImpl.class
+entities\Pozicija.class
+entities\TaksiVozilo.class
+serviceimpl\PozicijaServiceImpl.class
+services\ZahtevService.class
+services\PozicijaService.class
+serviceimpl\LokacijaServiceImpl.class
+Main.class
+entities\Lokacija.class
+serviceimpl\ZahtevServiceImpl.class
+entities\Zahtev.class
+services\TaksiService.class

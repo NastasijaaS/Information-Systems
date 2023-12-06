@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="User" created="April 7, 2022 at 4:17:46 PM CEST" modified="April 7, 2022 at 5:28:21 PM CEST" specVersion="2" urnVersion="1.27" nextGlobalID="586">
+  <ucmspec>
+    <scenarioGroups name="ScenarioGroup5" id="5">
+      <scenarios name="ScenarioDef6" id="6"/>
+    </scenarioGroups>
+  </ucmspec>
+  <grlspec>
+    <groups name="StrategiesGroup3" id="3" strategies="4"/>
+    <strategies name="EvaluationStrategy4" id="4" author="User" group="3"/>
+    <impactModel/>
+    <indicatorGroup name="Time" id="7" isRedesignCategory="true"/>
+    <indicatorGroup name="Cost" id="8" isRedesignCategory="true"/>
+    <indicatorGroup name="Quality" id="9" isRedesignCategory="true"/>
+    <indicatorGroup name="Flexibility" id="10" isRedesignCategory="true"/>
+    <featureModel/>
+  </grlspec>
+  <urndef>
+    <responsibilities name="Evidencija korisnika" id="76" respRefs="77"/>
+    <responsibilities name="Lociranje korisnika" id="281" respRefs="282"/>
+    <responsibilities name="Lociranje vozila" id="283" respRefs="284"/>
+    <responsibilities name="Pronalazak najblizeg vozila" id="285" respRefs="286"/>
+    <responsibilities name="Pronalazak odgovarajuceg vozila" id="287" respRefs="288"/>
+    <responsibilities name="Provera lokacije vozila" id="289" respRefs="290"/>
+    <responsibilities name="Prihvatanje voznje" id="291" respRefs="292"/>
+    <responsibilities name="Odbijanje voznje" id="342" respRefs="343"/>
+    <responsibilities name="Evidencija taksi vozila" id="585" respRefs="586"/>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UCMmap2" id="2">
+      <nodes xsi:type="ucm.map:StartPoint" name="Registrovanje korisnika" id="39" x="405" y="157" contRef="28" succ="//@urndef/@specDiagrams.0/@connections.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Registrovanje zavrseno" id="41" x="1456" y="379" pred="//@urndef/@specDiagrams.0/@connections.7">
+        <label deltaX="4" deltaY="-51"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="Interfejs korsnika" id="57" x="751" y="212" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.1" pred="//@urndef/@specDiagrams.0/@connections.2">
+        <label/>
+        <bindings plugin="50">
+          <in startPoint="52" stubEntry="//@urndef/@specDiagrams.0/@connections.2"/>
+          <out endPoint="53" stubExit="//@urndef/@specDiagrams.0/@connections.1"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow72" id="72" x="624" y="190" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.2" pred="//@urndef/@specDiagrams.0/@connections.13"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow73" id="73" x="1002" y="287" succ="//@urndef/@specDiagrams.0/@connections.3" pred="//@urndef/@specDiagrams.0/@connections.4"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow74" id="74" x="879" y="229" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.4" pred="//@urndef/@specDiagrams.0/@connections.1"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow75" id="75" x="1129" y="293" contRef="69" succ="//@urndef/@specDiagrams.0/@connections.5" pred="//@urndef/@specDiagrams.0/@connections.3"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef77" id="77" x="1253" y="319" contRef="69" succ="//@urndef/@specDiagrams.0/@connections.6" pred="//@urndef/@specDiagrams.0/@connections.5" respDef="76">
+        <label deltaX="-16" deltaY="5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow78" id="78" x="1380" y="355" succ="//@urndef/@specDiagrams.0/@connections.7" pred="//@urndef/@specDiagrams.0/@connections.59"/>
+      <nodes xsi:type="ucm.map:StartPoint" name="Zahtev za vozilom" id="91" x="365" y="214" contRef="28" succ="//@urndef/@specDiagrams.0/@connections.8">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Odbijanje voznje" id="93" x="261" y="289" contRef="28" pred="//@urndef/@specDiagrams.0/@connections.40">
+        <label deltaX="12" deltaY="7"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="Zahtevi korisnika" id="130" x="680" y="285" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.9" pred="//@urndef/@specDiagrams.0/@connections.12">
+        <label/>
+        <bindings plugin="123">
+          <in startPoint="125" stubEntry="//@urndef/@specDiagrams.0/@connections.12"/>
+          <out endPoint="126" stubExit="//@urndef/@specDiagrams.0/@connections.9"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow147" id="147" x="834" y="294" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.10" pred="//@urndef/@specDiagrams.0/@connections.14"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow151" id="151" x="493" y="234" contRef="28" succ="//@urndef/@specDiagrams.0/@connections.11" pred="//@urndef/@specDiagrams.0/@connections.8"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow154" id="154" x="560" y="249" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.12" pred="//@urndef/@specDiagrams.0/@connections.11"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow155" id="155" x="551" y="189" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.13" pred="//@urndef/@specDiagrams.0/@connections.0"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow156" id="156" x="770" y="296" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.14" pred="//@urndef/@specDiagrams.0/@connections.9"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow213" id="213" x="1003" y="357" succ="//@urndef/@specDiagrams.0/@connections.15" pred="//@urndef/@specDiagrams.0/@connections.10"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow214" id="214" x="1187" y="388" contRef="69" succ="//@urndef/@specDiagrams.0/@connections.16" pred="//@urndef/@specDiagrams.0/@connections.15"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow215" id="215" x="1270" y="403" contRef="69" succ="//@urndef/@specDiagrams.0/@connections.17" pred="//@urndef/@specDiagrams.0/@connections.16"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow218" id="218" x="1269" y="475" contRef="69" succ="//@urndef/@specDiagrams.0/@connections.18" pred="//@urndef/@specDiagrams.0/@connections.17"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow221" id="221" x="999" y="471" succ="//@urndef/@specDiagrams.0/@connections.19" pred="//@urndef/@specDiagrams.0/@connections.45"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow224" id="224" x="751" y="541" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.20" pred="//@urndef/@specDiagrams.0/@connections.48"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow225" id="225" x="626" y="559" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.21" pred="//@urndef/@specDiagrams.0/@connections.20"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow226" id="226" x="553" y="590" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.22" pred="//@urndef/@specDiagrams.0/@connections.21"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow231" id="231" x="564" y="637" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.23" pred="//@urndef/@specDiagrams.0/@connections.49"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow232" id="232" x="647" y="629" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.24" pred="//@urndef/@specDiagrams.0/@connections.23"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow233" id="233" x="834" y="622" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.25" pred="//@urndef/@specDiagrams.0/@connections.24"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow235" id="235" x="1021" y="600" succ="//@urndef/@specDiagrams.0/@connections.26" pred="//@urndef/@specDiagrams.0/@connections.25"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow241" id="241" x="927" y="689" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.27" pred="//@urndef/@specDiagrams.0/@connections.44"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow245" id="245" x="617" y="749" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.28" pred="//@urndef/@specDiagrams.0/@connections.47"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow248" id="248" x="310" y="773" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.29" pred="//@urndef/@specDiagrams.0/@connections.31"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow249" id="249" x="498" y="768" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.30" pred="//@urndef/@specDiagrams.0/@connections.28"/>
+      <nodes xsi:type="ucm.map:Stub" name="Provera statusa vozila" id="251" x="417" y="795" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.31" pred="//@urndef/@specDiagrams.0/@connections.30">
+        <label deltaX="-18" deltaY="-61"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow254" id="254" x="277" y="549" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.32" pred="//@urndef/@specDiagrams.0/@connections.50"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow255" id="255" x="450" y="523" succ="//@urndef/@specDiagrams.0/@connections.33" pred="//@urndef/@specDiagrams.0/@connections.32"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow256" id="256" x="591" y="444" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.34" pred="//@urndef/@specDiagrams.0/@connections.33"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow258" id="258" x="681" y="426" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.35" pred="//@urndef/@specDiagrams.0/@connections.34"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow259" id="259" x="904" y="363" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.36" pred="//@urndef/@specDiagrams.0/@connections.37"/>
+      <nodes xsi:type="ucm.map:Stub" name="Slanje podataka o vozilu korisniku" id="261" x="802" y="414" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.37" pred="//@urndef/@specDiagrams.0/@connections.35">
+        <label deltaX="39" deltaY="5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow262" id="262" x="710" y="351" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.38" pred="//@urndef/@specDiagrams.0/@connections.36"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow263" id="263" x="558" y="352" succ="//@urndef/@specDiagrams.0/@connections.39" pred="//@urndef/@specDiagrams.0/@connections.38"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow264" id="264" x="360" y="293" contRef="28" succ="//@urndef/@specDiagrams.0/@connections.40" pred="//@urndef/@specDiagrams.0/@connections.41"/>
+      <nodes xsi:type="ucm.map:Timer" name="Dobijanje podataka o voznji" id="269" x="474" y="307" contRef="28" succ="//@urndef/@specDiagrams.0/@connections.41 //@urndef/@specDiagrams.0/@connections.42" pred="//@urndef/@specDiagrams.0/@connections.39">
+        <label deltaX="59" deltaY="17"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Prihvatanje voznje" id="273" x="260" y="358" contRef="28" pred="//@urndef/@specDiagrams.0/@connections.43">
+        <label deltaX="28" deltaY="8"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow274" id="274" x="355" y="328" contRef="28" succ="//@urndef/@specDiagrams.0/@connections.43" pred="//@urndef/@specDiagrams.0/@connections.42"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow279" id="279" x="1140" y="709" contRef="276" succ="//@urndef/@specDiagrams.0/@connections.44" pred="//@urndef/@specDiagrams.0/@connections.46"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef282" id="282" x="1171" y="579" contRef="276" succ="//@urndef/@specDiagrams.0/@connections.45" pred="//@urndef/@specDiagrams.0/@connections.18" respDef="281">
+        <label deltaX="-7" deltaY="19"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef284" id="284" x="1244" y="667" contRef="276" succ="//@urndef/@specDiagrams.0/@connections.46" pred="//@urndef/@specDiagrams.0/@connections.26" respDef="283">
+        <label deltaX="-18" deltaY="10"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef286" id="286" x="815" y="758" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.47" pred="//@urndef/@specDiagrams.0/@connections.53" respDef="285">
+        <label deltaX="23" deltaY="-37"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef288" id="288" x="887" y="522" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.48" pred="//@urndef/@specDiagrams.0/@connections.19" respDef="287">
+        <label deltaX="-1" deltaY="-48"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef290" id="290" x="395" y="613" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.49" pred="//@urndef/@specDiagrams.0/@connections.22" respDef="289">
+        <label deltaX="17" deltaY="-41"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef292" id="292" x="207" y="700" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.50" pred="//@urndef/@specDiagrams.0/@connections.51" respDef="291">
+        <label deltaX="13" deltaY="-55"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork293" id="293" x="305" y="730" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.51 //@urndef/@specDiagrams.0/@connections.52" pred="//@urndef/@specDiagrams.0/@connections.29"/>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin332" id="332" x="883" y="726" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.53" pred="//@urndef/@specDiagrams.0/@connections.27 //@urndef/@specDiagrams.0/@connections.56"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow337" id="337" x="433" y="681" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.54" pred="//@urndef/@specDiagrams.0/@connections.57"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow338" id="338" x="568" y="706" succ="//@urndef/@specDiagrams.0/@connections.55" pred="//@urndef/@specDiagrams.0/@connections.54"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow340" id="340" x="817" y="709" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.56" pred="//@urndef/@specDiagrams.0/@connections.55"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef343" id="343" x="373" y="719" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.57" pred="//@urndef/@specDiagrams.0/@connections.52" respDef="342">
+        <label deltaX="31" deltaY="8"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="Registrovanje vozila" id="364" x="445" y="559" contRef="65" succ="//@urndef/@specDiagrams.0/@connections.58">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin577" id="577" x="1320" y="348" contRef="69" succ="//@urndef/@specDiagrams.0/@connections.59" pred="//@urndef/@specDiagrams.0/@connections.6 //@urndef/@specDiagrams.0/@connections.65"/>
+      <nodes xsi:type="ucm.map:Stub" name="Interfejs taksi vozila" id="578" x="651" y="503" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.60" pred="//@urndef/@specDiagrams.0/@connections.61">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow579" id="579" x="559" y="538" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.61" pred="//@urndef/@specDiagrams.0/@connections.58"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow580" id="580" x="743" y="478" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.62" pred="//@urndef/@specDiagrams.0/@connections.60"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow581" id="581" x="904" y="428" contRef="67" succ="//@urndef/@specDiagrams.0/@connections.63" pred="//@urndef/@specDiagrams.0/@connections.62"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow582" id="582" x="1023" y="418" succ="//@urndef/@specDiagrams.0/@connections.64" pred="//@urndef/@specDiagrams.0/@connections.63"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef586" id="586" x="1099" y="414" contRef="69" succ="//@urndef/@specDiagrams.0/@connections.65" pred="//@urndef/@specDiagrams.0/@connections.64" respDef="585">
+        <label deltaX="-14" deltaY="-44"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef28" id="28" x="129" y="89" width="379" height="384" contDef="27" nodes="39 91 151 93 264 269 273 274">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef65" id="65" x="133" y="492" width="382" height="440" contDef="64" nodes="248 249 251 254 290 292 293 337 343 364">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef67" id="67" x="527" y="94" width="478" height="840" contDef="66" nodes="57 72 74 130 147 154 224 225 232 233 241 245 256 258 259 261 262 286 288 332 340 578 580 581 231 226 579 156 155">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef69" id="69" x="1022" y="194" width="342" height="571" contDef="68" nodes="75 77 214 215 218 577 586" children="276">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef276" id="276" x="1041" y="481" width="299" height="265" contDef="275" nodes="279 282 284" parent="69">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="39" target="155"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="57" target="74" outBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="72" target="57" inBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="73" target="75"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="74" target="73"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="75" target="77"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="77" target="577"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="78" target="41"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="91" target="151"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="130" target="156" outBindings="//@urndef/@specDiagrams.0/@nodes.11/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="147" target="213"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="151" target="154"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="154" target="130" inBindings="//@urndef/@specDiagrams.0/@nodes.11/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="155" target="72"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="156" target="147"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="213" target="214"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="214" target="215"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="215" target="218"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="218" target="282"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="221" target="288"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="224" target="225"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="225" target="226"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="226" target="290"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="231" target="232"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="232" target="233"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="233" target="235"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="235" target="284"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="241" target="332"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="245" target="249"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="248" target="293"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="249" target="251"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="251" target="248"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="254" target="255"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="255" target="256"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="256" target="258"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="258" target="261"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="259" target="262"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="261" target="259"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="262" target="263"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="263" target="269"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="264" target="93"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="269" target="264">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="269" target="274">
+        <condition label="" expression="false"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="274" target="273"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="279" target="241"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="282" target="221"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="284" target="279"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="286" target="245"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="288" target="224"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="290" target="231"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="292" target="254"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="293" target="292">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="293" target="343">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="332" target="286"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="337" target="338"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="338" target="340"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="340" target="332"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="343" target="337"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="364" target="579"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="577" target="78"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="578" target="580"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="579" target="578"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="580" target="581"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="581" target="582"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="582" target="586"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="586" target="577"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="Extracted UCM" id="50" parentStub="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0">
+      <nodes xsi:type="ucm.map:EndPoint" name="EndPoint41" id="53" x="383" y="262" pred="//@urndef/@specDiagrams.1/@connections.0" outBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="StartPoint39" id="52" x="183" y="262" succ="//@urndef/@specDiagrams.1/@connections.1" inBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint40" id="51" x="283" y="262" succ="//@urndef/@specDiagrams.1/@connections.0" pred="//@urndef/@specDiagrams.1/@connections.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="51" target="53"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="52" target="51"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="Extracted UCM" id="109" parentStub="//@urndef/@specDiagrams.3/@nodes.2/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="Zahtev za vozilom" id="111" x="400" y="238" succ="//@urndef/@specDiagrams.2/@connections.0" inBindings="//@urndef/@specDiagrams.3/@nodes.2/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint92" id="110" x="692" y="328" succ="//@urndef/@specDiagrams.2/@connections.1" pred="//@urndef/@specDiagrams.2/@connections.0"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="EndPoint93" id="112" x="884" y="325" pred="//@urndef/@specDiagrams.2/@connections.1" outBindings="//@urndef/@specDiagrams.3/@nodes.2/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <connections xsi:type="ucm.map:NodeConnection" source="111" target="110"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="110" target="112"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="Extracted UCM" id="123" parentStub="//@urndef/@specDiagrams.0/@nodes.11/@bindings.0">
+      <nodes xsi:type="ucm.map:EndPoint" name="EndPoint93" id="126" x="884" y="325" pred="//@urndef/@specDiagrams.3/@connections.0" outBindings="//@urndef/@specDiagrams.0/@nodes.11/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="Zahtev za vozilom" id="125" x="400" y="238" succ="//@urndef/@specDiagrams.3/@connections.1" inBindings="//@urndef/@specDiagrams.0/@nodes.11/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="Extracted UCM" id="124" x="692" y="328" succ="//@urndef/@specDiagrams.3/@connections.0" pred="//@urndef/@specDiagrams.3/@connections.1">
+        <label/>
+        <bindings plugin="109">
+          <in startPoint="111" stubEntry="//@urndef/@specDiagrams.3/@connections.1"/>
+          <out endPoint="112" stubExit="//@urndef/@specDiagrams.3/@connections.0"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <connections xsi:type="ucm.map:NodeConnection" source="124" target="126" outBindings="//@urndef/@specDiagrams.3/@nodes.2/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="125" target="124" inBindings="//@urndef/@specDiagrams.3/@nodes.2/@bindings.0/@in.0"/>
+    </specDiagrams>
+    <components name="Korisnik" id="27" fillColor="255,160,160" filled="true" contRefs="28" kind="Actor"/>
+    <components name="Taksi vozilo" id="64" fillColor="191,96,96" filled="true" contRefs="65" kind="Actor"/>
+    <components name="Mobilna aplikacija" id="66" fillColor="191,191,191" filled="true" contRefs="67" kind="Actor"/>
+    <components name="Baza podataka" id="68" fillColor="96,191,96" filled="true" contRefs="69" kind="Actor"/>
+    <components name="Autobuske stanice" id="275" fillColor="160,255,160" filled="true" contRefs="276" kind="Actor"/>
+  </urndef>
+  <metadata name="_Use0to100EvaluationRange" value="false"/>
+</urn:URNspec>

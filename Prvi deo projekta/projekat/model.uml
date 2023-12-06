@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kARBILawEeyYDaXTVV_Tiw" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_kBg-ULawEeyYDaXTVV_Tiw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_kAZkALawEeyYDaXTVV_Tiw" name="Dijagram aktivnosti" node="_r77lQLayEeyYDaXTVV_Tiw _uIWZgLayEeyYDaXTVV_Tiw _-JN1ELayEeyYDaXTVV_Tiw _PkTy8LazEeyYDaXTVV_Tiw _SZi6sLazEeyYDaXTVV_Tiw _aFVhsLazEeyYDaXTVV_Tiw _LmdLYLa1EeyYDaXTVV_Tiw _zSkM4La4EeyYDaXTVV_Tiw _2PDzMLa4EeyYDaXTVV_Tiw _TxMbYLa5EeyYDaXTVV_Tiw _kXpa0La6EeyYDaXTVV_Tiw _SHlHULa7EeyYDaXTVV_Tiw _UPU28La7EeyYDaXTVV_Tiw _WTcDwLa7EeyYDaXTVV_Tiw _ZFwaYLa7EeyYDaXTVV_Tiw _huhnALa7EeyYDaXTVV_Tiw _jDNskLa8EeyYDaXTVV_Tiw _l20coLa8EeyYDaXTVV_Tiw _Cfcp8La9EeyYDaXTVV_Tiw _FUlEALa9EeyYDaXTVV_Tiw _XT6XYLa9EeyYDaXTVV_Tiw _zGwMMLa9EeyYDaXTVV_Tiw _PzxxULa-EeyYDaXTVV_Tiw _LLN1ULa_EeyYDaXTVV_Tiw" group="_ewnagLayEeyYDaXTVV_Tiw _aFVhsLazEeyYDaXTVV_Tiw _LmdLYLa1EeyYDaXTVV_Tiw _wm5GQLa3EeyYDaXTVV_Tiw _2PDzMLa4EeyYDaXTVV_Tiw _TxMbYLa5EeyYDaXTVV_Tiw _eOW2cLa8EeyYDaXTVV_Tiw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GrQuoLazEeyYDaXTVV_Tiw" inPartition="_ewnagLayEeyYDaXTVV_Tiw" target="_r77lQLayEeyYDaXTVV_Tiw" source="_-JN1ELayEeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HnP1wLazEeyYDaXTVV_Tiw" inPartition="_ewnagLayEeyYDaXTVV_Tiw" target="_uIWZgLayEeyYDaXTVV_Tiw" source="_-JN1ELayEeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vpOrgLa0EeyYDaXTVV_Tiw" target="_aFVhsLazEeyYDaXTVV_Tiw" source="_PkTy8LazEeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SK5IwLa1EeyYDaXTVV_Tiw" target="_LmdLYLa1EeyYDaXTVV_Tiw" source="_SZi6sLazEeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4T-RQLa4EeyYDaXTVV_Tiw" target="_2PDzMLa4EeyYDaXTVV_Tiw" source="_zSkM4La4EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pJ1-gLa6EeyYDaXTVV_Tiw" target="_LJ6AALa6EeyYDaXTVV_Tiw" source="_kXpa0La6EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8DEuULa6EeyYDaXTVV_Tiw" target="_-JN1ELayEeyYDaXTVV_Tiw" source="_TxMbYLa5EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ddwVYLa7EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw" target="_kXpa0La6EeyYDaXTVV_Tiw" source="_UPU28La7EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nrDP0La7EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw" target="_UPU28La7EeyYDaXTVV_Tiw" source="_huhnALa7EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_o3fNwLa7EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw" target="_SHlHULa7EeyYDaXTVV_Tiw" source="_huhnALa7EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_teNhQLa7EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw" target="_huhnALa7EeyYDaXTVV_Tiw" source="_WTcDwLa7EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zOx8QLa8EeyYDaXTVV_Tiw" target="_l20coLa8EeyYDaXTVV_Tiw" source="_aFVhsLazEeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2UP4YLa8EeyYDaXTVV_Tiw" target="_jDNskLa8EeyYDaXTVV_Tiw" source="_2PDzMLa4EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cvJRALa9EeyYDaXTVV_Tiw" target="_XT6XYLa9EeyYDaXTVV_Tiw" source="_jDNskLa8EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_i6JasLa9EeyYDaXTVV_Tiw" target="_XT6XYLa9EeyYDaXTVV_Tiw" source="_l20coLa8EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2AQI4La9EeyYDaXTVV_Tiw" target="_zGwMMLa9EeyYDaXTVV_Tiw" source="_XT6XYLa9EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-NIDsLa9EeyYDaXTVV_Tiw" target="_Cfcp8La9EeyYDaXTVV_Tiw" source="_ZFwaYLa7EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WczTwLa-EeyYDaXTVV_Tiw" target="_PzxxULa-EeyYDaXTVV_Tiw" source="_FUlEALa9EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YDHxULa-EeyYDaXTVV_Tiw" target="_ZFwaYLa7EeyYDaXTVV_Tiw" source="_PzxxULa-EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RX2WsLa_EeyYDaXTVV_Tiw" target="_LLN1ULa_EeyYDaXTVV_Tiw" source="_Cfcp8La9EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UtuGULa_EeyYDaXTVV_Tiw" target="_WTcDwLa7EeyYDaXTVV_Tiw" source="_LLN1ULa_EeyYDaXTVV_Tiw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_anCqILa_EeyYDaXTVV_Tiw" target="_LLN1ULa_EeyYDaXTVV_Tiw" source="_SHlHULa7EeyYDaXTVV_Tiw"/>
+    <structuredNode xmi:type="uml:StructuredActivityNode" xmi:id="_aFVhsLazEeyYDaXTVV_Tiw" name="StructuredActivityNode9" incoming="_vpOrgLa0EeyYDaXTVV_Tiw" outgoing="_zOx8QLa8EeyYDaXTVV_Tiw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Hp6SwLa0EeyYDaXTVV_Tiw" target="_wOKaALazEeyYDaXTVV_Tiw" source="_uFRa4LazEeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_K5sBcLa0EeyYDaXTVV_Tiw" target="_x98VkLazEeyYDaXTVV_Tiw" source="_wOKaALazEeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Q5ZhILa0EeyYDaXTVV_Tiw" target="_8HbuELazEeyYDaXTVV_Tiw" source="_x98VkLazEeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_SEIO4La0EeyYDaXTVV_Tiw" target="_5D-kILazEeyYDaXTVV_Tiw" source="_8HbuELazEeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ZZhvILa0EeyYDaXTVV_Tiw" target="__kd1oLazEeyYDaXTVV_Tiw" source="_x98VkLazEeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_hWY4ALa0EeyYDaXTVV_Tiw" target="__kd1oLazEeyYDaXTVV_Tiw" source="_5D-kILazEeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_uFRa4LazEeyYDaXTVV_Tiw" name="Unos korisnickog imena" outgoing="_Hp6SwLa0EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_wOKaALazEeyYDaXTVV_Tiw" name="Unos sifre naloga" incoming="_Hp6SwLa0EeyYDaXTVV_Tiw" outgoing="_K5sBcLa0EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_x98VkLazEeyYDaXTVV_Tiw" name="Unos broja telefona" incoming="_K5sBcLa0EeyYDaXTVV_Tiw" outgoing="_Q5ZhILa0EeyYDaXTVV_Tiw _ZZhvILa0EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_5D-kILazEeyYDaXTVV_Tiw" name="Unos platne kartice" incoming="_SEIO4La0EeyYDaXTVV_Tiw" outgoing="_hWY4ALa0EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_8HbuELazEeyYDaXTVV_Tiw" name="" incoming="_Q5ZhILa0EeyYDaXTVV_Tiw" outgoing="_SEIO4La0EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="__kd1oLazEeyYDaXTVV_Tiw" name="Podaci uneti" incoming="_ZZhvILa0EeyYDaXTVV_Tiw _hWY4ALa0EeyYDaXTVV_Tiw"/>
+    </structuredNode>
+    <structuredNode xmi:type="uml:StructuredActivityNode" xmi:id="_LmdLYLa1EeyYDaXTVV_Tiw" name="StructuredActivityNode11" incoming="_SK5IwLa1EeyYDaXTVV_Tiw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_liGYkLa2EeyYDaXTVV_Tiw" target="_eVBjULa1EeyYDaXTVV_Tiw" source="_c_ukULa1EeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_mXRtELa2EeyYDaXTVV_Tiw" target="_f0jcYLa1EeyYDaXTVV_Tiw" source="_eVBjULa1EeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_o49msLa2EeyYDaXTVV_Tiw" target="_hZLQ0La1EeyYDaXTVV_Tiw" source="_f0jcYLa1EeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_sX7n8La2EeyYDaXTVV_Tiw" target="_jnC2kLa1EeyYDaXTVV_Tiw" source="_hZLQ0La1EeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_MKFK8La3EeyYDaXTVV_Tiw" target="_7W794La2EeyYDaXTVV_Tiw" source="_jnC2kLa1EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_c_ukULa1EeyYDaXTVV_Tiw" name="Pocetna adresa" outgoing="_liGYkLa2EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_eVBjULa1EeyYDaXTVV_Tiw" name="Krajnja adresa" incoming="_liGYkLa2EeyYDaXTVV_Tiw" outgoing="_mXRtELa2EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_f0jcYLa1EeyYDaXTVV_Tiw" name="Tip vozila" incoming="_mXRtELa2EeyYDaXTVV_Tiw" outgoing="_o49msLa2EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_hZLQ0La1EeyYDaXTVV_Tiw" name="Broj sedista" incoming="_o49msLa2EeyYDaXTVV_Tiw" outgoing="_sX7n8La2EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_jnC2kLa1EeyYDaXTVV_Tiw" name="Tip voznje" incoming="_sX7n8La2EeyYDaXTVV_Tiw" outgoing="_MKFK8La3EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:StructuredActivityNode" xmi:id="_7W794La2EeyYDaXTVV_Tiw" name="StructuredActivityNode15" incoming="_MKFK8La3EeyYDaXTVV_Tiw">
+        <edge xmi:type="uml:ControlFlow" xmi:id="_NMvh0La3EeyYDaXTVV_Tiw" target="_JSfSwLa3EeyYDaXTVV_Tiw" source="_HOTNcLa3EeyYDaXTVV_Tiw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_N7ZXkLa3EeyYDaXTVV_Tiw" target="_KQaTkLa3EeyYDaXTVV_Tiw" source="_HOTNcLa3EeyYDaXTVV_Tiw"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_HOTNcLa3EeyYDaXTVV_Tiw" name="Placanje" outgoing="_NMvh0La3EeyYDaXTVV_Tiw _N7ZXkLa3EeyYDaXTVV_Tiw"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_JSfSwLa3EeyYDaXTVV_Tiw" name="Kes" incoming="_NMvh0La3EeyYDaXTVV_Tiw"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_KQaTkLa3EeyYDaXTVV_Tiw" name="Kartica" incoming="_N7ZXkLa3EeyYDaXTVV_Tiw"/>
+      </node>
+    </structuredNode>
+    <structuredNode xmi:type="uml:StructuredActivityNode" xmi:id="_2PDzMLa4EeyYDaXTVV_Tiw" name="StructuredActivityNode15" incoming="_4T-RQLa4EeyYDaXTVV_Tiw" outgoing="_2UP4YLa8EeyYDaXTVV_Tiw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_J5MbgLa5EeyYDaXTVV_Tiw" target="_BzjxILa5EeyYDaXTVV_Tiw" source="_8ACTULa4EeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Ky2nYLa5EeyYDaXTVV_Tiw" target="__j1KMLa4EeyYDaXTVV_Tiw" source="_BzjxILa5EeyYDaXTVV_Tiw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_LlHKwLa5EeyYDaXTVV_Tiw" target="_EfTlsLa5EeyYDaXTVV_Tiw" source="__j1KMLa4EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_8ACTULa4EeyYDaXTVV_Tiw" name="Unos registarske tablice" outgoing="_J5MbgLa5EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="__j1KMLa4EeyYDaXTVV_Tiw" name="Unos broj sedista" incoming="_Ky2nYLa5EeyYDaXTVV_Tiw" outgoing="_LlHKwLa5EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_BzjxILa5EeyYDaXTVV_Tiw" name="Unos tip vozila" incoming="_J5MbgLa5EeyYDaXTVV_Tiw" outgoing="_Ky2nYLa5EeyYDaXTVV_Tiw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_EfTlsLa5EeyYDaXTVV_Tiw" name="Podaci uneti" incoming="_LlHKwLa5EeyYDaXTVV_Tiw"/>
+    </structuredNode>
+    <structuredNode xmi:type="uml:StructuredActivityNode" xmi:id="_TxMbYLa5EeyYDaXTVV_Tiw" name="StructuredActivityNode17" outgoing="_8DEuULa6EeyYDaXTVV_Tiw">
+      <node xmi:type="uml:OpaqueAction" xmi:id="_If8UILa6EeyYDaXTVV_Tiw" name="Slanje vremena dolaska"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_LJ6AALa6EeyYDaXTVV_Tiw" name="Slanje registarskih tablica" incoming="_pJ1-gLa6EeyYDaXTVV_Tiw"/>
+    </structuredNode>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_ewnagLayEeyYDaXTVV_Tiw" name="Korisnik " node="_r77lQLayEeyYDaXTVV_Tiw _uIWZgLayEeyYDaXTVV_Tiw _-JN1ELayEeyYDaXTVV_Tiw _PkTy8LazEeyYDaXTVV_Tiw _SZi6sLazEeyYDaXTVV_Tiw" edge="_GrQuoLazEeyYDaXTVV_Tiw _HnP1wLazEeyYDaXTVV_Tiw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_wm5GQLa3EeyYDaXTVV_Tiw" name="Taksi vozilo" node="_zSkM4La4EeyYDaXTVV_Tiw _kXpa0La6EeyYDaXTVV_Tiw _SHlHULa7EeyYDaXTVV_Tiw _UPU28La7EeyYDaXTVV_Tiw _WTcDwLa7EeyYDaXTVV_Tiw _ZFwaYLa7EeyYDaXTVV_Tiw _huhnALa7EeyYDaXTVV_Tiw" edge="_ddwVYLa7EeyYDaXTVV_Tiw _nrDP0La7EeyYDaXTVV_Tiw _o3fNwLa7EeyYDaXTVV_Tiw _teNhQLa7EeyYDaXTVV_Tiw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_eOW2cLa8EeyYDaXTVV_Tiw" name="Baza podataka" node="_jDNskLa8EeyYDaXTVV_Tiw _l20coLa8EeyYDaXTVV_Tiw">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_-jfxwLa8EeyYDaXTVV_Tiw" name="Autobuske stanice" node="_Cfcp8La9EeyYDaXTVV_Tiw _FUlEALa9EeyYDaXTVV_Tiw"/>
+    </group>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_r77lQLayEeyYDaXTVV_Tiw" name="Prihvatanje voznje" incoming="_GrQuoLazEeyYDaXTVV_Tiw" inPartition="_ewnagLayEeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_uIWZgLayEeyYDaXTVV_Tiw" name="Odbijanje voznje" incoming="_HnP1wLazEeyYDaXTVV_Tiw" inPartition="_ewnagLayEeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_-JN1ELayEeyYDaXTVV_Tiw" name="Dobijanje podatka" incoming="_8DEuULa6EeyYDaXTVV_Tiw" outgoing="_GrQuoLazEeyYDaXTVV_Tiw _HnP1wLazEeyYDaXTVV_Tiw" inPartition="_ewnagLayEeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_PkTy8LazEeyYDaXTVV_Tiw" name="Registrovanje korisnika" outgoing="_vpOrgLa0EeyYDaXTVV_Tiw" inPartition="_ewnagLayEeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_SZi6sLazEeyYDaXTVV_Tiw" name="Trazenje vozila" outgoing="_SK5IwLa1EeyYDaXTVV_Tiw" inPartition="_ewnagLayEeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_zSkM4La4EeyYDaXTVV_Tiw" name="Registrovanje vozila" outgoing="_4T-RQLa4EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_kXpa0La6EeyYDaXTVV_Tiw" name="Slanje podataka o vozilu" incoming="_ddwVYLa7EeyYDaXTVV_Tiw" outgoing="_pJ1-gLa6EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_SHlHULa7EeyYDaXTVV_Tiw" name="Odbijanje voznje" incoming="_o3fNwLa7EeyYDaXTVV_Tiw" outgoing="_anCqILa_EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UPU28La7EeyYDaXTVV_Tiw" name="Prihvatanje voznje" incoming="_nrDP0La7EeyYDaXTVV_Tiw" outgoing="_ddwVYLa7EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WTcDwLa7EeyYDaXTVV_Tiw" name="Provera statusa vozila" incoming="_UtuGULa_EeyYDaXTVV_Tiw" outgoing="_teNhQLa7EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZFwaYLa7EeyYDaXTVV_Tiw" name="Provera lokacije vozila" incoming="_YDHxULa-EeyYDaXTVV_Tiw" outgoing="_-NIDsLa9EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_huhnALa7EeyYDaXTVV_Tiw" name="" incoming="_teNhQLa7EeyYDaXTVV_Tiw" outgoing="_nrDP0La7EeyYDaXTVV_Tiw _o3fNwLa7EeyYDaXTVV_Tiw" inPartition="_wm5GQLa3EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_jDNskLa8EeyYDaXTVV_Tiw" name="Evidencija taksi vozila" incoming="_2UP4YLa8EeyYDaXTVV_Tiw" outgoing="_cvJRALa9EeyYDaXTVV_Tiw" inPartition="_eOW2cLa8EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_l20coLa8EeyYDaXTVV_Tiw" name="Evidencija korisnika" incoming="_zOx8QLa8EeyYDaXTVV_Tiw" outgoing="_i6JasLa9EeyYDaXTVV_Tiw" inPartition="_eOW2cLa8EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Cfcp8La9EeyYDaXTVV_Tiw" name="Lociranje vozila" incoming="_-NIDsLa9EeyYDaXTVV_Tiw" outgoing="_RX2WsLa_EeyYDaXTVV_Tiw" inPartition="_-jfxwLa8EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FUlEALa9EeyYDaXTVV_Tiw" name="Lociranje korisnika" outgoing="_WczTwLa-EeyYDaXTVV_Tiw" inPartition="_-jfxwLa8EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_XT6XYLa9EeyYDaXTVV_Tiw" name="" incoming="_cvJRALa9EeyYDaXTVV_Tiw _i6JasLa9EeyYDaXTVV_Tiw" outgoing="_2AQI4La9EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_zGwMMLa9EeyYDaXTVV_Tiw" name="Registrovanje zavrseno" incoming="_2AQI4La9EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PzxxULa-EeyYDaXTVV_Tiw" name="Pronalazenje odgovarajuceg vozila" incoming="_WczTwLa-EeyYDaXTVV_Tiw" outgoing="_YDHxULa-EeyYDaXTVV_Tiw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LLN1ULa_EeyYDaXTVV_Tiw" name="Biranje najblizeg vozila" incoming="_RX2WsLa_EeyYDaXTVV_Tiw _anCqILa_EeyYDaXTVV_Tiw" outgoing="_UtuGULa_EeyYDaXTVV_Tiw"/>
+  </packagedElement>
+</uml:Model>

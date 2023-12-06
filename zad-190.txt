@@ -1,0 +1,9 @@
+173. Informacioni sistem za rezervaciju taksi vozila.
+ U centralizovanoj bazi se cuvaju informacije o pozicijama svih registrovanih taksi 
+vozila i korisnika koji putem mobilne aplikacije rezerviše taksi. 
+Pozicija je aproksimirana nazivom najbližeg autobuskog stajališta gradskog prevoza (region).
+ Nakon slanja rezervacije, dodeljuje se prvi slobodan taksi koji se trenutno nalazi 
+u najbližem mogucem regionu.  
+
+
+Obrazac: Process Feedback

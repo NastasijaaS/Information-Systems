@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ynH4ILf1EeyYDaXTVV_Tiw" name="model3">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_yrNG4Lf1EeyYDaXTVV_Tiw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QcaTkLf7EeyYDaXTVV_Tiw" name="TaksiVozilo">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QZ6jwLf8EeyYDaXTVV_Tiw" name="RegistarskiBroj" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_l1gtMLf9EeyYDaXTVV_Tiw" name="BrojSedista" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qso0MLf9EeyYDaXTVV_Tiw" name="tipVozila" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1P8a4Lf9EeyYDaXTVV_Tiw" name="VremeDolaska" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_73WzwLf9EeyYDaXTVV_Tiw" name="VremeDoZavrsetkaVoznje" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jrWdkbgPEeyYDaXTVV_Tiw" name="bazapodataka" type="_R_2C8LgAEeyYDaXTVV_Tiw" association="_jrSzMLgPEeyYDaXTVV_Tiw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zpaQALf_EeyYDaXTVV_Tiw" name="RegistrujVozilo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FsVp8LgAEeyYDaXTVV_Tiw" name="StatusVozila"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_I7yBcLgAEeyYDaXTVV_Tiw" name="SlanjePodatkaOVozilu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Nl5AILgAEeyYDaXTVV_Tiw" name="PrihvatanjeVoznje"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R_2C8LgAEeyYDaXTVV_Tiw" name="BazaPodataka">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Vb1BoLgAEeyYDaXTVV_Tiw" name="AutobuskeStanice" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_b8ZysLgAEeyYDaXTVV_Tiw" name="EvidencijaKorisnika"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e869YLgAEeyYDaXTVV_Tiw" name="EvidencijaTaksiVozila"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ht2z8LgAEeyYDaXTVV_Tiw" name="Korisnik">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__FW5cLgAEeyYDaXTVV_Tiw" name="KorisnickoIme" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_D2-OULgBEeyYDaXTVV_Tiw" name="Sifra" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MkAP4LgBEeyYDaXTVV_Tiw" name="OdgovorOPrihvatanjuiliOdbijanjuVozila" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_T_ei8LgBEeyYDaXTVV_Tiw" name="BrojTelefona" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YTIJcLgBEeyYDaXTVV_Tiw" name="BrojPlatneKartice" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_btw78LgPEeyYDaXTVV_Tiw" name="taksivozilo" type="_QcaTkLf7EeyYDaXTVV_Tiw" association="_bthrYLgPEeyYDaXTVV_Tiw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kj4oEbgPEeyYDaXTVV_Tiw" name="bazapodataka" type="_R_2C8LgAEeyYDaXTVV_Tiw" association="_kjzvkLgPEeyYDaXTVV_Tiw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VBmwgbgQEeyYDaXTVV_Tiw" name="zahtevkorisnika" type="_v_c00LgBEeyYDaXTVV_Tiw" association="_VBkUQLgQEeyYDaXTVV_Tiw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iw_PcLgBEeyYDaXTVV_Tiw" name="RegistrujKorisnika"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_k9eVILgBEeyYDaXTVV_Tiw" name="ZahteviZaVozilo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_n4ps0LgBEeyYDaXTVV_Tiw" name="OdgovorZaVoznju"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_v_c00LgBEeyYDaXTVV_Tiw" name="ZahtevKorisnika">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zQiLELgBEeyYDaXTVV_Tiw" name="PocetnaAdresa" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4SheQLgBEeyYDaXTVV_Tiw" name="KrajnjaAdresa" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YAF74LgFEeyYDaXTVV_Tiw" name="TipVozila" visibility="private" type="_8e6UQLgDEeyYDaXTVV_Tiw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hIZkMLgFEeyYDaXTVV_Tiw" name="NacinPlacanja" visibility="private" type="_EVaWcLgEEeyYDaXTVV_Tiw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_skS_wLgFEeyYDaXTVV_Tiw" name="TipVoznje" visibility="private" type="_KuVnYLgEEeyYDaXTVV_Tiw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rduqMLgOEeyYDaXTVV_Tiw" name="BrojSedista" visibility="private" type="_UGgQoLgEEeyYDaXTVV_Tiw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zzBQQLgFEeyYDaXTVV_Tiw" name="PosaljiZahtev"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0v2E4LgFEeyYDaXTVV_Tiw" name="Status"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_8e6UQLgDEeyYDaXTVV_Tiw" name="Tip Vozila">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_-xJcoLgDEeyYDaXTVV_Tiw" name="Obicno"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_AJB1kLgEEeyYDaXTVV_Tiw" name="Elektricno"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_EVaWcLgEEeyYDaXTVV_Tiw" name="Nacin Placanja">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_GcuoQLgEEeyYDaXTVV_Tiw" name="Kes"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_R8WtQLgEEeyYDaXTVV_Tiw" name="Kartica"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_KuVnYLgEEeyYDaXTVV_Tiw" name="Tip Voznje">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_L2e7MLgEEeyYDaXTVV_Tiw" name="Gradska"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_MqRvoLgEEeyYDaXTVV_Tiw" name="Prigradska"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_UGgQoLgEEeyYDaXTVV_Tiw" name="Broj sedista">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PCB0sLgFEeyYDaXTVV_Tiw" name="4"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_QChBULgFEeyYDaXTVV_Tiw" name="5"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_QmQnkLgFEeyYDaXTVV_Tiw" name="6"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Rc57sLgFEeyYDaXTVV_Tiw" name="7"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1ckj0LgMEeyYDaXTVV_Tiw" name="Mobilna aplikacija">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u59rErgPEeyYDaXTVV_Tiw" name="taksivozilo" type="_QcaTkLf7EeyYDaXTVV_Tiw" association="_u5714LgPEeyYDaXTVV_Tiw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u5_gQLgPEeyYDaXTVV_Tiw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0QvigrgPEeyYDaXTVV_Tiw" name="korisnik" type="_ht2z8LgAEeyYDaXTVV_Tiw" association="_0QttULgPEeyYDaXTVV_Tiw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0QxXsLgPEeyYDaXTVV_Tiw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__vihErgPEeyYDaXTVV_Tiw" name="bazapodataka" type="_R_2C8LgAEeyYDaXTVV_Tiw" association="__vgE0LgPEeyYDaXTVV_Tiw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__vkWQbgPEeyYDaXTVV_Tiw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Nffp8bgQEeyYDaXTVV_Tiw" name="zahtevkorisnika" type="_v_c00LgBEeyYDaXTVV_Tiw" association="_NfdNsLgQEeyYDaXTVV_Tiw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3ZY10LgMEeyYDaXTVV_Tiw" name="UpisiVozilo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5uDnILgMEeyYDaXTVV_Tiw" name="UpisiKorisnika"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_79wY4LgMEeyYDaXTVV_Tiw" name="LocirajKorisnika"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_813soLgMEeyYDaXTVV_Tiw" name="LocirajVozilo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-0MagLgMEeyYDaXTVV_Tiw" name="posaljiZahtev"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_B7gwwLgNEeyYDaXTVV_Tiw" name="pronadjiVozilo(">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OVT_ALgNEeyYDaXTVV_Tiw" name="Taksi Vozilo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RGshgLgNEeyYDaXTVV_Tiw" name="pronadjiNajblize">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YDAMULgNEeyYDaXTVV_Tiw" name="BazaPodataka" type="_QcaTkLf7EeyYDaXTVV_Tiw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dkb0kLgNEeyYDaXTVV_Tiw" name="proslediOdgovor"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bthrYLgPEeyYDaXTVV_Tiw" memberEnd="_btw78LgPEeyYDaXTVV_Tiw _bt10cLgPEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_btt4oLgPEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_btt4obgPEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bt10cLgPEeyYDaXTVV_Tiw" name="korisnik" type="_ht2z8LgAEeyYDaXTVV_Tiw" association="_bthrYLgPEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jrSzMLgPEeyYDaXTVV_Tiw" memberEnd="_jrWdkbgPEeyYDaXTVV_Tiw _jrXrsrgPEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jrUBULgPEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jrWdkLgPEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jrXrsrgPEeyYDaXTVV_Tiw" name="taksivozilo" type="_QcaTkLf7EeyYDaXTVV_Tiw" association="_jrSzMLgPEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kjzvkLgPEeyYDaXTVV_Tiw" memberEnd="_kj4oEbgPEeyYDaXTVV_Tiw _kj6dQrgPEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kj4BALgPEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kj4oELgPEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kj6dQrgPEeyYDaXTVV_Tiw" name="korisnik" type="_ht2z8LgAEeyYDaXTVV_Tiw" association="_kjzvkLgPEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u5714LgPEeyYDaXTVV_Tiw" memberEnd="_u59rErgPEeyYDaXTVV_Tiw _u6AHULgPEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u59rELgPEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u59rEbgPEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u6AHULgPEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_1ckj0LgMEeyYDaXTVV_Tiw" association="_u5714LgPEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0QttULgPEeyYDaXTVV_Tiw" memberEnd="_0QvigrgPEeyYDaXTVV_Tiw _0Qx-wLgPEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0QvigLgPEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0QvigbgPEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0Qx-wLgPEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_1ckj0LgMEeyYDaXTVV_Tiw" association="_0QttULgPEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__vgE0LgPEeyYDaXTVV_Tiw" memberEnd="__vihErgPEeyYDaXTVV_Tiw __vkWQrgPEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__vihELgPEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__vihEbgPEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__vkWQrgPEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_1ckj0LgMEeyYDaXTVV_Tiw" association="__vgE0LgPEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NfdNsLgQEeyYDaXTVV_Tiw" memberEnd="_Nffp8bgQEeyYDaXTVV_Tiw _NfhfILgQEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NffC4LgQEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nffp8LgQEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NfhfILgQEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_1ckj0LgMEeyYDaXTVV_Tiw" association="_NfdNsLgQEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VBkUQLgQEeyYDaXTVV_Tiw" memberEnd="_VBmwgbgQEeyYDaXTVV_Tiw _VBrpALgQEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VBmJcLgQEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VBmwgLgQEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VBrpALgQEeyYDaXTVV_Tiw" name="korisnik" type="_ht2z8LgAEeyYDaXTVV_Tiw" association="_VBkUQLgQEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_83pokLf8EeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83zZkLf8EeyYDaXTVV_Tiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

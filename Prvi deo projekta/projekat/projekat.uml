@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NxEMILaREeyYDaXTVV_Tiw" name="projekat">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_N2zAsLaREeyYDaXTVV_Tiw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aov18LahEeyYDaXTVV_Tiw" name="Mobilna aplikacija"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pwUSALahEeyYDaXTVV_Tiw" name="Registrovanje korisnika">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_taHNwLaiEeyYDaXTVV_Tiw" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6t830LahEeyYDaXTVV_Tiw" memberEnd="_6t-F8rahEeyYDaXTVV_Tiw _6t-F87ahEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6t-F8LahEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6t-F8bahEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6t-F8rahEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_aov18LahEeyYDaXTVV_Tiw" association="_6t830LahEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6t-F87ahEeyYDaXTVV_Tiw" name="registrovanje korisnika" type="_pwUSALahEeyYDaXTVV_Tiw" association="_6t830LahEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gWg0kLaiEeyYDaXTVV_Tiw" name="Broj telefona">
+    <include xmi:type="uml:Include" xmi:id="_xqjIMLaiEeyYDaXTVV_Tiw" addition="_pwUSALahEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hnIH4LaiEeyYDaXTVV_Tiw" name="Broj platne kartice">
+    <extend xmi:type="uml:Extend" xmi:id="_taF_oLaiEeyYDaXTVV_Tiw" extendedCase="_pwUSALahEeyYDaXTVV_Tiw" extensionLocation="_taHNwLaiEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lQpzULaiEeyYDaXTVV_Tiw" name="Korisnicko ime">
+    <include xmi:type="uml:Include" xmi:id="_zjFXILaiEeyYDaXTVV_Tiw" addition="_pwUSALahEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ITGpcLajEeyYDaXTVV_Tiw" name="Korisnik"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NoI0cLajEeyYDaXTVV_Tiw" name="Registrovanje taksi vozila"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Zw7yQLajEeyYDaXTVV_Tiw" name="Registarski broj">
+    <include xmi:type="uml:Include" xmi:id="_tlSGgLajEeyYDaXTVV_Tiw" addition="_NoI0cLajEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_h2gLMLajEeyYDaXTVV_Tiw" name="Unos broja sedista">
+    <include xmi:type="uml:Include" xmi:id="_uGQsoLajEeyYDaXTVV_Tiw" addition="_NoI0cLajEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jEjSsLajEeyYDaXTVV_Tiw" name="Unos tipa vozila">
+    <include xmi:type="uml:Include" xmi:id="_ruqjILajEeyYDaXTVV_Tiw" addition="_NoI0cLajEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4qdrMLajEeyYDaXTVV_Tiw" name="Zahtevi korisnika">
+    <include xmi:type="uml:Include" xmi:id="_mb9BcLalEeyYDaXTVV_Tiw" addition="_1Oca0LakEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_nTa08LalEeyYDaXTVV_Tiw" addition="_zYKOoLakEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_ojQFILalEeyYDaXTVV_Tiw" addition="_4ZvSILakEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_qVWU4LalEeyYDaXTVV_Tiw" addition="_yaeeYLakEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_rUhS4LalEeyYDaXTVV_Tiw" addition="_2iA7gLakEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_sED5cLalEeyYDaXTVV_Tiw" addition="_6XJaALakEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yaeeYLakEeyYDaXTVV_Tiw" name="Broj sedista"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zYKOoLakEeyYDaXTVV_Tiw" name="Krajnja adresa"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1Oca0LakEeyYDaXTVV_Tiw" name="Pocetna adresa"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2iA7gLakEeyYDaXTVV_Tiw" name="Tip vozila"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4ZvSILakEeyYDaXTVV_Tiw" name="Tip voznje"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6XJaALakEeyYDaXTVV_Tiw" name="Nacin placanja"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fYOgALalEeyYDaXTVV_Tiw" name="Kes">
+    <generalization xmi:type="uml:Generalization" xmi:id="_yKMxQLalEeyYDaXTVV_Tiw" general="_6XJaALakEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gIFPoLalEeyYDaXTVV_Tiw" name="Kartica">
+    <generalization xmi:type="uml:Generalization" xmi:id="_yvsrALalEeyYDaXTVV_Tiw" general="_6XJaALakEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_10xlkLalEeyYDaXTVV_Tiw" memberEnd="_10yzsralEeyYDaXTVV_Tiw _10zawLalEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_10yzsLalEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_10yzsbalEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_10yzsralEeyYDaXTVV_Tiw" name="zahtevi korisnika" type="_4qdrMLajEeyYDaXTVV_Tiw" association="_10xlkLalEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_10zawLalEeyYDaXTVV_Tiw" name="korisnik" type="_ITGpcLajEeyYDaXTVV_Tiw" association="_10xlkLalEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3_2WALalEeyYDaXTVV_Tiw" memberEnd="_3_29ELalEeyYDaXTVV_Tiw _3_29EbalEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3_2WAbalEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3_2WAralEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3_29ELalEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_aov18LahEeyYDaXTVV_Tiw" association="_3_2WALalEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3_29EbalEeyYDaXTVV_Tiw" name="zahtevi korisnika" type="_4qdrMLajEeyYDaXTVV_Tiw" association="_3_2WALalEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aF4AILamEeyYDaXTVV_Tiw" name="Taksi vozilo"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cnav0LamEeyYDaXTVV_Tiw" memberEnd="_cnbW4LamEeyYDaXTVV_Tiw _cnbW4bamEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cnav0bamEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cnav0ramEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cnbW4LamEeyYDaXTVV_Tiw" name="taksi vozilo" type="_aF4AILamEeyYDaXTVV_Tiw" association="_cnav0LamEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cnbW4bamEeyYDaXTVV_Tiw" name="registrovanje taksi vozila" type="_NoI0cLajEeyYDaXTVV_Tiw" association="_cnav0LamEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_krabcLamEeyYDaXTVV_Tiw" memberEnd="_krbCgramEeyYDaXTVV_Tiw _krbCg7amEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_krbCgLamEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_krbCgbamEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_krbCgramEeyYDaXTVV_Tiw" name="registrovanje korisnika" type="_pwUSALahEeyYDaXTVV_Tiw" association="_krabcLamEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_krbCg7amEeyYDaXTVV_Tiw" name="korisnik" type="_ITGpcLajEeyYDaXTVV_Tiw" association="_krabcLamEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nLAqYLamEeyYDaXTVV_Tiw" name="Podaci o voznji">
+    <include xmi:type="uml:Include" xmi:id="_-4jdwLamEeyYDaXTVV_Tiw" addition="_sZF40LamEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_AXFRQLanEeyYDaXTVV_Tiw" addition="_teqZwLamEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qJoXoLamEeyYDaXTVV_Tiw" memberEnd="_qJo-sramEeyYDaXTVV_Tiw _qJplwLamEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJo-sLamEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qJo-sbamEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qJo-sramEeyYDaXTVV_Tiw" name="korisnik" type="_ITGpcLajEeyYDaXTVV_Tiw" association="_qJoXoLamEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qJplwLamEeyYDaXTVV_Tiw" name="podaci o voznji" type="_nLAqYLamEeyYDaXTVV_Tiw" association="_qJoXoLamEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sZF40LamEeyYDaXTVV_Tiw" name="Odbijanje voznje"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_teqZwLamEeyYDaXTVV_Tiw" name="Prihvatanje voznje"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DZU6QLanEeyYDaXTVV_Tiw" name="Prosledjivanje podataka o vozilu">
+    <include xmi:type="uml:Include" xmi:id="_6hCOcLanEeyYDaXTVV_Tiw" addition="_15nXYLanEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_8XuqULanEeyYDaXTVV_Tiw" addition="_2_gBYLanEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_UZrAYLaoEeyYDaXTVV_Tiw" addition="_nLAqYLamEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_15nXYLanEeyYDaXTVV_Tiw" name="Vreme dolaska"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2_gBYLanEeyYDaXTVV_Tiw" name="Registarske tablice"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_BhpxgLaoEeyYDaXTVV_Tiw" name="Slanje svojih podataka"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HHkRILaoEeyYDaXTVV_Tiw" memberEnd="_HHk4MraoEeyYDaXTVV_Tiw _HHk4M7aoEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HHk4MLaoEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HHk4MbaoEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HHk4MraoEeyYDaXTVV_Tiw" name="slanje svojih podataka" type="_BhpxgLaoEeyYDaXTVV_Tiw" association="_HHkRILaoEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HHk4M7aoEeyYDaXTVV_Tiw" name="taksi vozilo" type="_aF4AILamEeyYDaXTVV_Tiw" association="_HHkRILaoEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Pr6QwLaoEeyYDaXTVV_Tiw" client="_BhpxgLaoEeyYDaXTVV_Tiw" supplier="_DZU6QLanEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ymBqQLaoEeyYDaXTVV_Tiw" name="Evidencija o taksi vozilu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0mUHALaoEeyYDaXTVV_Tiw" name="Evidencija o korisniku"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3F3SoLaoEeyYDaXTVV_Tiw" memberEnd="_3F35sraoEeyYDaXTVV_Tiw _3F35s7aoEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3F35sLaoEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3F35sbaoEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3F35sraoEeyYDaXTVV_Tiw" name="evidencija o taksi vozilu" type="_ymBqQLaoEeyYDaXTVV_Tiw" association="_3F3SoLaoEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3F35s7aoEeyYDaXTVV_Tiw" name="registrovanje taksi vozila" type="_NoI0cLajEeyYDaXTVV_Tiw" association="_3F3SoLaoEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ISzfwLapEeyYDaXTVV_Tiw" memberEnd="_ISzfw7apEeyYDaXTVV_Tiw _IS0G0LapEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ISzfwbapEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ISzfwrapEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ISzfw7apEeyYDaXTVV_Tiw" name="evidencija o korisniku" type="_0mUHALaoEeyYDaXTVV_Tiw" association="_ISzfwLapEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IS0G0LapEeyYDaXTVV_Tiw" name="registrovanje korisnika" type="_pwUSALahEeyYDaXTVV_Tiw" association="_ISzfwLapEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aG07ALapEeyYDaXTVV_Tiw" name="Pronalazenje odgovarajuceg vozila"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nglxcLapEeyYDaXTVV_Tiw" memberEnd="_ngmYgrapEeyYDaXTVV_Tiw _ngmYg7apEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ngmYgLapEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ngmYgbapEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ngmYgrapEeyYDaXTVV_Tiw" name="pronalazenje odgovarajuceg vozila" type="_aG07ALapEeyYDaXTVV_Tiw" association="_nglxcLapEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ngmYg7apEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_aov18LahEeyYDaXTVV_Tiw" association="_nglxcLapEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pW1hYLapEeyYDaXTVV_Tiw" name="Lociranje vozila"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qkb88LapEeyYDaXTVV_Tiw" name="Lociranje korisnika"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_AzQvkLaqEeyYDaXTVV_Tiw" client="_qkb88LapEeyYDaXTVV_Tiw" supplier="_aG07ALapEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Bl_0ELaqEeyYDaXTVV_Tiw" client="_aG07ALapEeyYDaXTVV_Tiw" supplier="_pW1hYLapEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OGv-4LaqEeyYDaXTVV_Tiw" name="Baza Podataka"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3u-2MLaqEeyYDaXTVV_Tiw" name="Autobuske stanice"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_LdjSkLarEeyYDaXTVV_Tiw" name="Lociranje korisnika" client="_4qdrMLajEeyYDaXTVV_Tiw" supplier="_3u-2MLaqEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XaxSgLarEeyYDaXTVV_Tiw" memberEnd="_Xax5kLarEeyYDaXTVV_Tiw _Xax5kbarEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XaxSgbarEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XaxSgrarEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Xax5kLarEeyYDaXTVV_Tiw" name="baza podataka" type="_OGv-4LaqEeyYDaXTVV_Tiw" association="_XaxSgLarEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Xax5kbarEeyYDaXTVV_Tiw" name="evidencija o korisniku" type="_0mUHALaoEeyYDaXTVV_Tiw" association="_XaxSgLarEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YILLELarEeyYDaXTVV_Tiw" memberEnd="_YILLE7arEeyYDaXTVV_Tiw _YILyILarEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YILLEbarEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YILLErarEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YILLE7arEeyYDaXTVV_Tiw" name="baza podataka" type="_OGv-4LaqEeyYDaXTVV_Tiw" association="_YILLELarEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YILyILarEeyYDaXTVV_Tiw" name="evidencija o taksi vozilu" type="_ymBqQLaoEeyYDaXTVV_Tiw" association="_YILLELarEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_fKDSYLarEeyYDaXTVV_Tiw" client="_OGv-4LaqEeyYDaXTVV_Tiw" supplier="_qkb88LapEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_miYx4LarEeyYDaXTVV_Tiw" client="_pW1hYLapEeyYDaXTVV_Tiw" supplier="_OGv-4LaqEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MBQnILasEeyYDaXTVV_Tiw" name="Biranje najblizeg vozila"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6Fhk4LasEeyYDaXTVV_Tiw" memberEnd="_6FiL8rasEeyYDaXTVV_Tiw _6FiL87asEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6FiL8LasEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6FiL8basEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6FiL8rasEeyYDaXTVV_Tiw" name="biranje najblizeg vozila" type="_MBQnILasEeyYDaXTVV_Tiw" association="_6Fhk4LasEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6FiL87asEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_aov18LahEeyYDaXTVV_Tiw" association="_6Fhk4LasEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Bo9hILatEeyYDaXTVV_Tiw" name="Lociranje vozila" client="_OGv-4LaqEeyYDaXTVV_Tiw" supplier="_MBQnILasEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_E9OHMLatEeyYDaXTVV_Tiw" name="Provera statusa vozila">
+    <include xmi:type="uml:Include" xmi:id="_bl6yYLatEeyYDaXTVV_Tiw" addition="_LnSLcLatEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_dQZXMLatEeyYDaXTVV_Tiw" addition="_UWbF0LatEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LnSLcLatEeyYDaXTVV_Tiw" name="Provera vremena za dolazak na novu lokaciju">
+    <include xmi:type="uml:Include" xmi:id="_BWk7MLauEeyYDaXTVV_Tiw" addition="_qMPikLatEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_LSYdALauEeyYDaXTVV_Tiw" addition="_rttVULatEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UWbF0LatEeyYDaXTVV_Tiw" name="Provera vremena do dolaska na zavrsku lokaciju i dolazak na novu">
+    <include xmi:type="uml:Include" xmi:id="_CTgdgLauEeyYDaXTVV_Tiw" addition="_rttVULatEeyYDaXTVV_Tiw"/>
+    <include xmi:type="uml:Include" xmi:id="_C7jU8LauEeyYDaXTVV_Tiw" addition="_qMPikLatEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Z_2zgLatEeyYDaXTVV_Tiw" client="_MBQnILasEeyYDaXTVV_Tiw" supplier="_E9OHMLatEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jlvIoLatEeyYDaXTVV_Tiw" memberEnd="_jlvIo7atEeyYDaXTVV_Tiw _jlvIpLatEeyYDaXTVV_Tiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jlvIobatEeyYDaXTVV_Tiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jlvIoratEeyYDaXTVV_Tiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jlvIo7atEeyYDaXTVV_Tiw" name="registrovanje taksi vozila" type="_NoI0cLajEeyYDaXTVV_Tiw" association="_jlvIoLatEeyYDaXTVV_Tiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jlvIpLatEeyYDaXTVV_Tiw" name="mobilna aplikacija" type="_aov18LahEeyYDaXTVV_Tiw" association="_jlvIoLatEeyYDaXTVV_Tiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qMPikLatEeyYDaXTVV_Tiw" name="Prihvatanje voznje"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rttVULatEeyYDaXTVV_Tiw" name="Odbijanje voznje"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_FJelELauEeyYDaXTVV_Tiw" client="_qMPikLatEeyYDaXTVV_Tiw" supplier="_BhpxgLaoEeyYDaXTVV_Tiw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_M1IpMLauEeyYDaXTVV_Tiw" client="_rttVULatEeyYDaXTVV_Tiw" supplier="_MBQnILasEeyYDaXTVV_Tiw"/>
+</uml:Model>
